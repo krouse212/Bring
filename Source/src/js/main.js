@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const modulesSlider = new MiniSlider({
         container: '.modules__content-slider',   
         prev: '.modules__info-btns .slick-prev',
-        next: 'modules__info-btns .slick-next'
+        next: '.modules__info-btns .slick-next'
     });
 
     modulesSlider.init();
