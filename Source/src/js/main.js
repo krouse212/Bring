@@ -12,7 +12,12 @@ window.addEventListener('DOMContentLoaded', () => {
     const player = new VideoPlayer('.showup .play', '.overlay');
     player.init();
 
+    const modulePageSlider = new MainSlider({
+        container: '.moduleapp',
+        btns: '.next'
+    })
 
+    modulePageSlider.render();
 
     const showUpSlider = new MiniSlider({
         container: '.showup__content-slider',   
