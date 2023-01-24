@@ -9,7 +9,9 @@ export default class ShowInfo {
                 const sibling = btn.closest('.module__info-show').nextElementSibling;
 
                 sibling.classList.toggle('msg');
-                sibling.style.marginTop = '20px';   
+                sibling.style.marginTop = '20px';    
+              
+                btn.children[0].children[0].classList.toggle('hide');
             });
         });
     }
